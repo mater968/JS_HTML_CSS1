@@ -1,0 +1,14 @@
+/*SELECCION DE CLASE: Sirve para modificar los elementos que tengan enlazada la clase*/
+.Faltante {
+    color: red;
+}
+
+/*SELECCION POR ID: Elementos unicos que se utilizan como identificadores unicos*/
+#Secreto {
+    color: blue;
+}
+
+/*SELECCION POR ELEMENTO O ETIQUETAS*/
+h1 {
+    color: green;
+}

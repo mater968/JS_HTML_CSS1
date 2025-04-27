@@ -1,0 +1,17 @@
+.Formulario {
+    /*PADDING: Separa el contenido de los bordes*/
+    /*Se puede colocar solo "PADDING" y separara el contenido de todos los bordes, o tambien de forma separada como se puede ver abajo*/
+    padding: 10px;
+    padding-top: 10px; /*Arriba*/
+    padding-bottom: 10px; /*Abajo*/
+    padding-left: 10px; /*Izquierda*/
+    padding-right: 10px; /*Derecha*/
+    background: red;
+
+    /*Tambien se puede colocar todo en una linea y el orden es de acuerdo a las manecillas del reloj*/
+    padding: 10px 10px 10px 10px; /*top-right-bottom-left*/
+}
+
+.Formulario_input {
+    padding: 5px;
+}

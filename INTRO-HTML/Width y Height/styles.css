@@ -1,0 +1,23 @@
+
+div {
+    background: red; /*Color de Fondo*/
+    width: 200px; /*Ancho*/
+    height: 50px; /*Alto*/
+}
+
+h1 {
+    background: blue;
+    height: 300px;
+    text-decoration: underline;
+}
+
+/*En el apartado del form, lo estas declarando con un contenedor de 300px de ancho. Y los "INPUT" se ajusta al 90% del tamaño del form, ya que este esta conteniendo los inputs.(CAJA CONTENEDORA)*/
+/*El porcentaje es con respecto a la caja que lo contiene*/
+form {
+    width: 300px;
+}
+
+input {
+    width: 90%;
+}
+

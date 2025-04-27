@@ -1,0 +1,14 @@
+/*CREACION DE TIPOGRAFICA MEDIANTE UN ARCHIVO DE GOOGLE FONTS*/
+
+/*Al crear varios tipograficas al momento de editar un documento es necesario llamarla con el comando de "font-family" y el nombre. De acuerdo al "font-weight" colocado, puedo editar el texto con el valor colocado.*/
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-Regular.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-Black.ttf) format("truetype");
+    font-weight: 900;
+}

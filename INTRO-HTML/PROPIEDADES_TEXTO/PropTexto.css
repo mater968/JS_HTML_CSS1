@@ -1,0 +1,48 @@
+p {
+    color: red;
+    /*TIPOGRAFICA DE TEXTO: Sirve para cambiar el estilo del texto. Puedes colocar varias tipografias para la carga del siguiente ante cualquier error.*/
+    font-family: Montserrat;
+    /*TAMAÑO DE TEXTO: Sirve para cambiar el tamaño de las letras.*/
+    font-size: 16px;
+
+    /*NEGRITA: Se utiliza para resaltar en negrita el texto deseado. Por otro lado tenemos BOLDER-> Es el tamaño del grosor del resaltado +100*/
+    font-weight: bold;
+    /*TIPO DE TEXTO: Se utiliza para cambiar el tipo de texto para resaltar y aumentando la misma cambia el tamaño del resaltado del texto*/
+    font-weight: 400;
+
+    /*ESTILO DE TEXTO: Cambio la inclinacion del texto deseado.*/
+    font-style: italic;
+
+    /*ALINEADO DE TEXTO: Sirve para alinear el texto de acuerdo a las necesidades del usuario. ALINEA EL TEXTO DE ACUERDO A SU CONTENEDOR*/
+    text-align: left;
+    text-align: center;
+    /*ALINEA EL TEXTO PARA QUE ESTE BIEN CUADRADO EN SU CONTENEDOR Y TODAS LAS LINEAS SEAN IGUALES.*/
+    /*text-align: justify*/
+
+    /*DECORACIÓN DE TEXTO: Se pueden combinar en 1 linea*/
+    text-decoration: line-through; /*Subrayado todo el texto*/
+    text-decoration: underline; /*Subrayado inferior*/
+
+    /*INTERLINEADO DE TEXTO: Define el interlineado de texto*/
+    line-height: 1.4;
+
+    /*SEPARACION DE LETRAS: Es la separacion del texto entre las palabras*/
+    letter-spacing: 1px;
+
+    /*TRANSFORMACION DE TEXTO: Transforma el texto y le asigna dicha propiedad.*/
+    text-transform: lowercase; /*Minuscula*/
+    text-transform: uppercase; /*Mayuscula*/
+}
+
+h1 {
+    text-align: center;
+}
+
+span {
+    text-decoration: line-through underline overline;
+    color: peru;
+}
+
+a {
+    text-decoration: none; /*Elimina la decoracion de texto*/
+}
